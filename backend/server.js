@@ -1,3 +1,4 @@
+require('dotenv').config({ path: './config/.env' });
 const app = require("./app");
 const cloudinary = require("cloudinary");
 const connectDatabase = require("./config/database");
